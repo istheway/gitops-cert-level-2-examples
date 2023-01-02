@@ -16,8 +16,6 @@ spec:
           # cluster generator, 'child' #2
           - clusters: {}
   template:
-    metadata:
-      name: '{{path.basename}}-{{name}}'
     spec:
       project: default
       source:
